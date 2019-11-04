@@ -1,0 +1,11 @@
+The data is open rescourse from United States Census
+https://www.census.gov/data-tools/demo/hiv/hiv.html?s_appName=hiv&s_refdate=&s_age=&menu=dual_grid&s_ccode=
+and 
+https://www.census.gov/data-tools/demo/hiv/hiv.html?s_appName=hiv&s_refdate=&s_age=&menu=dual_grid&s_ccode=CHN
+One is from all around wrold and the other one is from China.
+I modified the title for each coloumn for using the table easier.
+----
+names(HIV_09DEC18_16_19_30_87)<- c("S","CC","GA","RD","PS","SC","SEX","A","SID","C","DT","CO","SN","AU","Y","T","PI","VT","NC","ND","PR","IR","ST","TT","SA")
+names(HIV_07DEC18_12_21_21_55)<- c("S","CC","GA","RD","PS","SC","SEX","A","SID","C","DT","CO","SN","AU","Y","T","PI","VT","NC","ND","PR","IR","ST","TT","SA")
+HIV_SQL <- data.frame(HIV_07DEC18_12_21_21_55)
+HIV_SQL_W <- data.frame(HIV_09DEC18_16_19_30_87)
