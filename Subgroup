@@ -1,0 +1,7 @@
+Rstudio Code:
+//SQL
+•	Subgroup_set <- sqldf("select HIV.SEX, HIV.PS from HIV_SQL HIV where (HIV.PS = 'Blood donors' or HIV.PS ='Drug users' or HIV.PS ='Homosexuals' or HIV.PS ='Homosexuals & bisexuals' or HIV.PS='IVDU' or HIV.PS='IVDU & drug users'or HIV.PS='Pregnant women'or HIV.PS='STI pts.')")
+•	p_Subgroup_set <- ggplot(data=Subgroup_set,aes(x=PS))+geom_bar(aes(fill=SEX))
+
+//Rstudio build in
+•	Subgroup_plot <- subset(HIV_07DEC18_12_21_21_55, PS %in% c("Blood donors","Drug users","Homosexuals","Homosexuals & bisexuals","IVDU","IVDU & drug users","Pregnant women","STI pts."))
