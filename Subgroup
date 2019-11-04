@@ -5,3 +5,4 @@ Rstudio Code:
 
 //Rstudio build in
 •	Subgroup_plot <- subset(HIV_07DEC18_12_21_21_55, PS %in% c("Blood donors","Drug users","Homosexuals","Homosexuals & bisexuals","IVDU","IVDU & drug users","Pregnant women","STI pts."))
+![image]()
